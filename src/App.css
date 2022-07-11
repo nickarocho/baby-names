@@ -1,5 +1,40 @@
+.match {
+  background: tomato;
+  border: 2px solid black;
+  border-radius: 15px;
+  transform: rotate(-3deg);
+  font-size: 2.5rem !important;
+}
+
+main {
+  max-width: 900px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+main div {
+  margin: 4rem;
+}
+
+li {
+  list-style: none;
+}
+
 .App {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
   text-align: center;
+
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -11,17 +46,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
